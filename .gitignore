@@ -9,6 +9,10 @@ agent-*.log
 .codegraph/
 subagent-*
 
+# Build outputs (Word documents from Markdown)
+report/*.docx
+report/SangreLima-*.docx
+
 # macOS
 .DS_Store
 .AppleDouble
