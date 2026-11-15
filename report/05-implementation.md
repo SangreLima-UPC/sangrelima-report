@@ -489,6 +489,8 @@
 
 ![Vista móvil (375 px): menú hamburguesa abierto y sección Hero](../assets/images/media/hero_mobile_screenshot.png)
 
+![Sección de donación y footer con columnas de navegación y copyright](../assets/images/media/donation_and_footer_screenshot.png)
+
 #### 5.2.1.3. Team Collaboration Insights.
 
 > En esta sección se presenta la evidencia de colaboración del equipo durante el Sprint 1, extraída de los insights del repositorio **sangrelima-upc/sangrelima-landing-page** en GitHub. Los datos reflejan las contribuciones al branch `develop` y al branch `main` durante el periodo del sprint.
