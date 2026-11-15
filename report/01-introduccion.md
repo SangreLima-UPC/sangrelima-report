@@ -53,7 +53,7 @@
 <p><strong>Carrera:</strong> Ingeniería de Software</p>
 <p><strong>Código:</strong> U202515871</p>
 <p><strong>Conocimientos y habilidades:</strong></p>
-<p>Soy una persona disciplinada y constante, cualidades que he desarrollado gracias a mi práctica de la natación, un deporte que me ha enseñado a mantener el enfoque, gestionar el esfuerzo a largo plazo y superar obstáculos con perseverancia. Estas mis bu mas habilidades las aplico en mi formación como estudiante de Ingeniería de Software, donde busco resolver problemas de manera metódica y con atención al detalle.</p></th>
+<p>Soy una persona disciplinada y constante, cualidades que he desarrollado gracias a mi práctica de la natación, un deporte que me ha enseñado a mantener el enfoque, gestionar el esfuerzo a largo plazo y superar obstáculos con perseverancia. Estas habilidades las aplico en mi formación como estudiante de Ingeniería de Software, donde busco resolver problemas de manera metódica y con atención al detalle.</p></th>
 </tr>
 <tr>
 <th style="text-align: center;"><img src="../assets/images/media/profile_reyes_frances_kamila.png" style="width:2.27083in;height:2.63889in" /></th>
