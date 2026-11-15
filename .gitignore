@@ -1,0 +1,55 @@
+# AI Agent Outputs & Chats
+.atl/
+.claude/
+*.output
+*.transcript
+agent-*.log
+*-chat.md
+*-conversation.json
+.codegraph/
+subagent-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.c9/
+
+# Node (if added later)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Build artifacts
+dist/
+build/
+
+# OS temp files
+*.tmp
+*.bak
+.~*
+
+# Local development overrides
+.env.local
+local.config.json
