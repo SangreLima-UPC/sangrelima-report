@@ -592,7 +592,7 @@ URL del repositorio en GitHub: [<u>https://github.com/fatima-campos/sangrelima-a
 
 - User Stories: US35, US44 y US45
 
-### <span class="mark">6.2.2. Registro de Entrevistas.</span>
+### 6.2.2. Registro de Entrevistas.
 
 ### 
 

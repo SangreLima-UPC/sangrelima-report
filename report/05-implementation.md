@@ -451,9 +451,53 @@
 
 #### 5.2.1.1. Sprint Backlog 1.
 
+> **Sprint Goal:** "Diseñar e implementar el Landing Page de SangreLima con HTML5, CSS3 y JavaScript básico, publicarlo en GitHub Pages y verificar que los flujos informativos clave —solicitudes urgentes validadas, propuesta de valor del producto y llamadas a la acción para ambos perfiles de usuario— sean completamente funcionales y accesibles."
+>
+> Para la gestión visual del Sprint 1 se utilizó un tablero Trello organizado con las columnas **To-do**, **In-Process**, **To-Review** y **Done**. Cada tarjeta corresponde a un Work Item de la tabla siguiente e incluye su estimación, responsable y criterios de aceptación.
+>
+> **URL del tablero Trello:** [https://trello.com/b/F7xuEumW/sangrelima](https://trello.com/b/F7xuEumW/sangrelima)
+
+![Tablero Trello Sprint 1 — tarjetas WI-01 a WI-12 en estado Done](../assets/images/media/trello_screenshot_sprint1.png)
+
+| **Work-Item Id** | **User Story Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|----|----|----|----|----|----|----|
+| WI-01 | US01 | Wireframe sección Hero | Diseñar la estructura visual del hero con los CTAs "Necesito sangre" y "Quiero donar", la propuesta de valor y la ilustración principal. | 3 | Martín Farro, Alexis | Done |
+| WI-02 | US01 | HTML estructura Hero | Codificar el marcado semántico de la sección hero: encabezado H1, descripción, botones de acción e ilustración SVG con atributos ARIA. | 3 | Campos Acosta, Fatima | Done |
+| WI-03 | US01 | CSS responsive sección Hero | Aplicar estilos mobile-first al hero: tipografía Outfit, colores del style guide y grid de 2 columnas a partir de 1024 px. | 4 | Campos Acosta, Fatima | Done |
+| WI-04 | US14 | Componente tag "Validada" | Implementar el badge visual con fondo verde (#2e7d32) que identifica visualmente las solicitudes verificadas por un establecimiento de salud. | 2 | Campos Acosta, Fatima | Done |
+| WI-05 | US14 | Integración badges en request-cards | Añadir los badges "Validada" y "Urgente" a las tarjetas de solicitud de ejemplo con contraste WCAG y etiquetas ARIA. | 2 | Reyes Diaz, Frances | Done |
+| WI-06 | US04 | HTML sección Solicitudes urgentes | Implementar el marcado HTML de la grid de solicitudes: tipo de sangre, nombre del hospital, distrito, tiempo transcurrido y unidades requeridas. | 4 | Calderon Mendoza, Sebastian | Done |
+| WI-07 | US04 | CSS tarjetas de solicitud | Aplicar diseño card con sombra (--shadow-card), tipografía y layout de los detalles del centro de salud; grid de 1, 2 y 3 columnas según breakpoint. | 3 | Campos Acosta, Fatima | Done |
+| WI-08 | US24 | HTML check-list propuesta de valor | Codificar la lista de beneficios clave del hero ("Solicitudes verificadas por hospitales", "Alertas para donantes compatibles", "Centros de donación cercanos"). | 2 | Belon Carita, Jorge | Done |
+| WI-09 | US24 | Sección "Cómo funciona" | Implementar los 3 steps con número circular, título y descripción en grid responsive: 1 columna en móvil, 3 columnas a partir de 768 px. | 3 | Molina Benites, Luis | Done |
+| WI-10 | US30 | Header sticky con navegación responsive | Implementar el header fijo con logo, menú desktop y toggle mobile con JavaScript (atributo aria-expanded y clase main-nav--open). | 5 | Campos Acosta, Fatima | Done |
+| WI-11 | US30 | Footer con columnas de navegación | Implementar el footer con grid de 4 columnas, enlaces de navegación y año dinámico mediante new Date().getFullYear(). | 3 | Reyes Diaz, Frances | Done |
+| WI-12 | US30 | Publicación en GitHub Pages | Configurar el workflow de GitHub Actions (deploy-pages.yml), verificar el despliegue en producción y crear el tag v1.0.0. | 2 | Martín Farro, Alexis | Done |
+
 #### 5.2.1.2. User Interface & Execution.
 
+> El Landing Page de SangreLima se encuentra publicado y accesible en la siguiente URL de producción:
+> [https://sangrelima-upc.github.io/sangrelima-landing-page/](https://sangrelima-upc.github.io/sangrelima-landing-page/)
+>
+> A continuación se presentan capturas de las principales secciones implementadas durante el Sprint 1, tomadas desde la vista desktop y la vista móvil.
+
+![Sección Hero: encabezado, CTAs "Necesito sangre" y "Quiero donar", y check-list de beneficios](../assets/images/media/hero_screenshots.png)
+
+![Sección "¿Cómo funciona?": los 3 step-cards con numeración circular en rojo](../assets/images/media/how_it_works_screenshot.png)
+
+![Sección "Solicitudes urgentes cerca de ti": las 3 request-cards de ejemplo con tipos de sangre O+, A+ y B-](../assets/images/media/solicitudes_screenshot.png)
+
+![Vista móvil (375 px): menú hamburguesa abierto y sección Hero](../assets/images/media/hero_mobile_screenshot.png)
+
+![Sección de donación y footer con columnas de navegación y copyright](../assets/images/media/donation_and_footer_screenshot.png)
+
 #### 5.2.1.3. Team Collaboration Insights.
+
+> En esta sección se presenta la evidencia de colaboración del equipo durante el Sprint 1, extraída de los insights del repositorio **sangrelima-upc/sangrelima-landing-page** en GitHub. Los datos reflejan las contribuciones al branch `develop` y al branch `main` durante el periodo del sprint.
+
+*(Insertar screenshot — pestaña Insights › Contributors del repositorio GitHub, mostrando commits por integrante durante el Sprint 1)*
+
+*(Insertar screenshot — Network Graph o lista de commits con las ramas feature/landing-base, develop y main)*
 
 ## 5.3. Video About-the-Product.
 
