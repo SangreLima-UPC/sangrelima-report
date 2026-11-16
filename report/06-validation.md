@@ -594,7 +594,165 @@ URL del repositorio en GitHub: [<u>https://github.com/fatima-campos/sangrelima-a
 
 ### 6.2.2. Registro de Entrevistas.
 
-### 
+#### Segmento 1: Familiares y solicitantes
+
+**Entrevista 1**
+
+| Campo | Detalle |
+|---|---|
+| Nombre y apellidos | Leonardo Dextre |
+| Edad | 23 años |
+| Distrito | Ate |
+| Duración de la entrevista | 18 minutos |
+| URL del video | *(pendiente de subida a YouTube)* |
+| Timing de inicio | *(pendiente)* |
+
+> *(Insertar screenshot del cuadro de video)*
+
+**Resumen:** Leonardo Dextre participó en la sesión de validación probando el Landing Page y el flujo de registro de solicitud urgente en la aplicación iOS. Al ingresar al Landing Page reconoció de inmediato el propósito de SangreLima: indicó que el encabezado y los botones "Necesito sangre" y "Quiero donar" le resultaron directos y sin ambigüedad. Señaló que el diseño le transmitió confianza porque mostraba solicitudes con el sello "Validada", lo cual asoció con respaldo institucional. Durante el flujo de solicitud en iOS completó los campos de tipo de sangre, unidades y centro de salud sin ayuda, aunque se detuvo brevemente al seleccionar el nivel de urgencia porque no entendía la diferencia entre "urgente" y "muy urgente"; tras leer la descripción breve lo comprendió. Revisó el resumen antes de enviar y encontró el estado "Pendiente de validación" claro. Como observación positiva destacó que le habría tomado horas difundir una solicitud por WhatsApp y Facebook, mientras que con SangreLima lo hizo en menos de dos minutos. Sugirió agregar una estimación de tiempo de respuesta para que el solicitante sepa cuándo esperar noticias.
+
+---
+
+**Entrevista 2**
+
+| Campo | Detalle |
+|---|---|
+| Nombre y apellidos | Luana Espinoza Cruz |
+| Edad | 18 años |
+| Distrito | Puente Piedra |
+| Duración de la entrevista | 21 minutos |
+| URL del video | *(pendiente de subida a YouTube)* |
+| Timing de inicio | *(pendiente)* |
+
+> *(Insertar screenshot del cuadro de video)*
+
+**Resumen:** Luana Espinoza Cruz, estudiante de Medicina Humana, realizó la validación del Landing Page y del flujo completo de solicitud y seguimiento en iOS. En el Landing Page identificó correctamente la propuesta de valor y navegó hacia la sección de solicitudes urgentes sin dificultad; comentó que la información de los tipos de sangre en las tarjetas le resultó familiar dado su contexto académico. En el flujo de la aplicación completó el registro de solicitud de forma fluida, mostrando especial interés en el campo de compatibilidad sanguínea. Señaló que la validación del centro de salud es un elemento diferenciador importante porque da credibilidad a la solicitud frente a publicaciones en redes sociales que pueden ser falsas. Al revisar el estado de la solicitud y la cantidad de donantes que confirmaron, valoró positivamente la visibilidad del avance en tiempo real. Como punto de mejora indicó que le gustaría ver una breve descripción sobre qué ocurre después de que un donante confirma, para poder comunicárselo a su familiar paciente. La experiencia en Android la encontró coherente con iOS, aunque percibió que el formulario se veía algo comprimido en pantallas pequeñas.
+
+---
+
+**Entrevista 3**
+
+| Campo | Detalle |
+|---|---|
+| Nombre y apellidos | Carlos Salcedo |
+| Edad | 19 años |
+| Distrito | San Martín de Porres |
+| Duración de la entrevista | 17 minutos |
+| URL del video | *(pendiente de subida a YouTube)* |
+| Timing de inicio | *(pendiente)* |
+
+> *(Insertar screenshot del cuadro de video)*
+
+**Resumen:** Carlos Salcedo validó el Landing Page y el flujo de solicitud urgente en iOS y Android. Al explorar el Landing Page expresó que le pareció claro y ordenado; encontró la sección "¿Cómo funciona?" especialmente útil porque le explicó el proceso en tres pasos sencillos antes de usar la app. En el flujo de solicitud completó todos los campos sin asistencia y envió la solicitud exitosamente. Al probar el camino alterno —dejar vacío el campo de tipo de sangre— la aplicación mostró un mensaje de error que él consideró comprensible. Destacó como punto positivo que el badge "Validada" en las solicitudes le generó más confianza que las publicaciones que veía en grupos de Facebook, donde no había forma de saber si eran reales. Indicó que al principio no encontró de inmediato el botón para ver el estado de su solicitud y tuvo que buscar en el menú; sugirió que debería ser más visible tras el envío exitoso. En general valoró la experiencia de forma positiva y mencionó que recomendaría la aplicación a su familia.
+
+---
+
+#### Segmento 2: Donantes voluntarios
+
+**Entrevista 1**
+
+| Campo | Detalle |
+|---|---|
+| Nombre y apellidos | Herencia Saenz, José Gonzalo |
+| Edad | 30 años |
+| Distrito | Puente Piedra |
+| Duración de la entrevista | 22 minutos |
+| URL del video | *(pendiente de subida a YouTube)* |
+| Timing de inicio | *(pendiente)* |
+
+> *(Insertar screenshot del cuadro de video)*
+
+**Resumen:** José Gonzalo Herencia Saenz validó el Landing Page y el flujo de respuesta a una alerta de donación en iOS. En el Landing Page comprendió la propuesta de valor para donantes; señaló que la sección de beneficios le aclaró cómo funcionaría la alerta y qué se esperaba de él como donante. Al recibir la notificación de alerta en la aplicación, abrió el detalle y revisó el tipo de sangre requerido, el nombre del centro de salud y la distancia aproximada. Indicó que el sello de validación del centro de salud fue determinante para que se sintiera seguro de confirmar: "si lo valida el hospital, sé que es real". Completó la confirmación con un solo toque sin dificultad. Al revisar las instrucciones para acudir a donar encontró la información clara, aunque sugirió añadir un mapa o indicaciones de cómo llegar al centro. Como observación señaló que al principio dudó en tocar el botón de confirmación porque no sabía si podría cancelar después; una vez que leyó que sí podía declinar, procedió con confianza.
+
+---
+
+**Entrevista 2**
+
+| Campo | Detalle |
+|---|---|
+| Nombre y apellidos | Vega Pérez, John Austin |
+| Edad | 22 años |
+| Distrito | Chiclayo |
+| Duración de la entrevista | 19 minutos |
+| URL del video | *(pendiente de subida a YouTube)* |
+| Timing de inicio | *(pendiente)* |
+
+> *(Insertar screenshot del cuadro de video)*
+
+**Resumen:** John Austin Vega Pérez, donante frecuente con experiencia previa en campañas universitarias, realizó la validación del flujo de alerta y confirmación en iOS y Android. Al ingresar al Landing Page navegó rápidamente y encontró de inmediato la sección orientada a donantes; comentó que el diseño era limpio y que la información era suficiente para entender el producto sin necesidad de leer todo el contenido. En el flujo de la aplicación recibió la alerta, revisó los detalles de la solicitud y confirmó su disponibilidad en menos de un minuto, señalando que el proceso era notablemente más directo que enterarse de solicitudes por TikTok o Instagram. Probó también el camino alterno de declinar la solicitud y encontró que el flujo era igualmente sencillo. Como mejora propuso que la alerta mostrara directamente la distancia al centro sin necesidad de abrir el detalle, para facilitar la decisión rápida. Valoró positivamente que las instrucciones previas a la donación incluyeran los requisitos de salud, ya que eso le permitiría prepararse antes de salir.
+
+---
+
+**Entrevista 3**
+
+| Campo | Detalle |
+|---|---|
+| Nombre y apellidos | Villanueva Azulca, Fely Gabriela |
+| Edad | 20 años |
+| Distrito | Ate |
+| Duración de la entrevista | 20 minutos |
+| URL del video | *(pendiente de subida a YouTube)* |
+| Timing de inicio | *(pendiente)* |
+
+> *(Insertar screenshot del cuadro de video)*
+
+**Resumen:** Fely Gabriela Villanueva Azulca, con una única experiencia previa como donante, realizó la validación del flujo de alerta, confirmación e instrucciones en iOS. En el Landing Page mostró cierta cautela inicial; sin embargo, al identificar el texto que menciona la validación por centros de salud su actitud cambió y comentó que eso era exactamente lo que necesitaría para confiar en una solicitud. En la aplicación recibió la alerta y abrió el detalle; revisó detenidamente el badge de validación del hospital antes de tomar una decisión, lo cual llevó algo más de tiempo que en los otros participantes. Una vez verificado, confirmó su disponibilidad sin dificultad. Al revisar las instrucciones previas a la donación señaló que le generó tranquilidad saber de antemano qué exámenes le realizarían, porque en su primera donación no supo qué esperar y eso incrementó su ansiedad. Como sugerencia propuso agregar una sección de preguntas frecuentes accesible desde el detalle de la alerta. La experiencia en Android la encontró coherente con iOS.
+
+---
+
+#### Segmento 3: Centros de salud y bancos de sangre
+
+**Entrevista 1**
+
+| Campo | Detalle |
+|---|---|
+| Nombre y apellidos | Santiago Salinas, Dylan Jonathan |
+| Edad | 28 años |
+| Distrito | Surco |
+| Institución | Clínica Doctus |
+| Duración de la entrevista | 25 minutos |
+| URL del video | *(pendiente de subida a YouTube)* |
+| Timing de inicio | *(pendiente)* |
+
+> *(Insertar screenshot del cuadro de video)*
+
+**Resumen:** Dylan Jonathan Santiago Salinas, licenciado en enfermería en el área de emergencias, realizó la validación del Landing Page y del flujo de validación de solicitudes y registro de donación en iOS y Android. En el Landing Page reconoció la propuesta de valor para centros de salud y señaló que el mensaje sobre "solicitudes validadas por establecimientos de salud" era consistente con la responsabilidad que asumen los hospitales en este proceso. En el flujo de validación de solicitudes revisó la información del solicitante y los datos clínicos, aprobó la solicitud sin dificultad y encontró el flujo lógico y ordenado. Indicó que el tiempo promedio de validación en su clínica es de alrededor de un día y medio, y que una interfaz tan directa podría reducirlo considerablemente. Al registrar la llegada del donante y completar la donación encontró los pasos claros. Como observación técnica señaló que sería conveniente incluir campos adicionales para el resultado de los exámenes previos del donante, ya que esa información es parte del protocolo estándar. Destacó que cualquier herramienta de este tipo debe estar respaldada legalmente y por profesionales de la salud para garantizar la legitimidad de las solicitudes.
+
+---
+
+**Entrevista 2**
+
+| Campo | Detalle |
+|---|---|
+| Nombre y apellidos | Quispe Flores, Mayra |
+| Edad | 32 años |
+| Distrito | Jesús María |
+| Institución | Banco de Sangre — Clínica San Felipe |
+| Duración de la entrevista | 23 minutos |
+| URL del video | *(pendiente de subida a YouTube)* |
+| Timing de inicio | *(pendiente)* |
+
+> *(Insertar screenshot del cuadro de video)*
+
+**Resumen:** Mayra Quispe Flores, coordinadora administrativa del banco de sangre de la Clínica San Felipe, realizó la validación del Landing Page y los flujos de aprobación de solicitudes y registro de donación en iOS. En el Landing Page comprendió rápidamente el modelo de operación y consideró que la información estaba bien organizada para el perfil de personal de salud. En el flujo de validación de solicitudes revisó los datos del paciente y el tipo de sangre requerido, aprobó la solicitud y probó también el flujo de rechazo con motivo, que encontró completo y funcional. Señaló que en su trabajo actual el proceso de validación se realiza con formularios físicos combinados con hojas de cálculo, por lo que una interfaz digital unificada como la de SangreLima simplificaría notablemente su flujo de trabajo. Al registrar la donación completada encontró los pasos intuitivos. Como mejora propuso que el sistema genere automáticamente un comprobante digital para el donante y un registro para el banco de sangre, ya que actualmente ese paso se hace de forma manual. Valoró especialmente la trazabilidad que ofrece la plataforma al mantener el historial de solicitudes y donaciones en un mismo lugar.
+
+---
+
+**Entrevista 3**
+
+| Campo | Detalle |
+|---|---|
+| Nombre y apellidos | Ccari Mendoza, Roberto |
+| Edad | 45 años |
+| Distrito | San Borja |
+| Institución | Hospital Nacional Arzobispo Loayza |
+| Duración de la entrevista | 27 minutos |
+| URL del video | *(pendiente de subida a YouTube)* |
+| Timing de inicio | *(pendiente)* |
+
+> *(Insertar screenshot del cuadro de video)*
+
+**Resumen:** Roberto Ccari Mendoza, técnico de laboratorio con más de quince años de experiencia en el Hospital Nacional Arzobispo Loayza, realizó la validación del Landing Page y los flujos de validación de solicitudes y registro de donación en iOS. Al explorar el Landing Page tomó más tiempo que los otros participantes de este segmento en identificar la sección de beneficios para centros de salud; sugirió que esa información debería estar más visible desde el inicio, ya que el personal de salud tiene menos tiempo disponible para explorar. En el flujo de validación de solicitudes necesitó una breve orientación para localizar la bandeja de solicitudes pendientes, pero una vez dentro completó la aprobación sin dificultad. Señaló que la posibilidad de rechazar una solicitud con un motivo específico es un requisito indispensable para los protocolos hospitalarios, y valoró que el flujo lo contemplara. Al registrar la llegada del donante encontró el paso de confirmar la evaluación previa algo ambiguo y preguntó si se refería a los exámenes de hemoglobina o a una evaluación general; recomendó aclarar el nombre del campo. En general consideró que la herramienta tiene potencial para mejorar la coordinación entre pacientes, donantes y centros de salud, siempre que cuente con la validación normativa del Ministerio de Salud.
 
 ### 6.2.3. Evaluaciones según heurísticas
 
