@@ -1010,67 +1010,63 @@ El flujo comienza comienza en la **pantalla de Registro**, donde el profesional 
 
 ### 4.4.3. Primary Mobile Platform Mock-ups.
 
-Mock-ups EP01 – Registro de una solicitud urgente de sangre (US01 a US07)
+#### Mock-ups EP01 – Registro de una solicitud urgente de sangre (US01 a US07)
 
-Los siguientes Mock-ups corresponden al flujo principal del Segmento 1, representado por la User Persona María Elena Vargas Ríos, familiar de un paciente que necesita una transfusión urgente. Se diseñaron en Figma para la plataforma principal iOS (iPhone 16, 393 × 852 pt) aplicando el Design System de SangreLima definido en la sección 4.1: el color primario Crimson Red (
-#D32F2F) se reserva para la acción principal y la pestaña activa; el fondo es Off-White (
-#F8F9FA) y las tarjetas y campos son blancos; los textos usan la tipografía Outfit con los estilos H1, H2, H3, Body, Caption y Button; y el espaciado sigue múltiplos de 8 pt. Los estados usan los colores semánticos de la guía: verde (
-#2E7D32) para lo validado y ámbar (
-#F57C00) para lo pendiente.
-
-Respecto a los Wireframes de la sección 4.4.1 se realizaron dos mejoras. Primero, el menú principal (Inicio, Solicitudes, Centros y Perfil) se trasladó a un Tab Bar inferior, como establecen las Human Interface Guidelines de Apple y la sección 4.1.3.1, lo que además deja la navegación al alcance del pulgar. Segundo, se incorporaron los elementos de las User Stories que no estaban representados: las unidades requeridas, el nivel de urgencia, el punto de donación y la pantalla de revisión antes del envío.
+> Los siguientes Mock-ups corresponden al flujo principal del Segmento 1, representado por la User Persona María Elena Vargas Ríos, familiar de un paciente que necesita una transfusión urgente. Se diseñaron en Figma para la plataforma principal iOS (iPhone 16, 393 × 852 pt) aplicando el Design System de SangreLima definido en la sección 4.1: el color primario Crimson Red (#D32F2F) se reserva para la acción principal y la pestaña activa; el fondo es Off-White (#F8F9FA) y las tarjetas y campos son blancos; los textos usan la tipografía Outfit con los estilos H1, H2, H3, Body, Caption y Button; y el espaciado sigue múltiplos de 8 pt. Los estados usan los colores semánticos de la guía: verde (#2E7D32) para lo validado y ámbar (#F57C00) para lo pendiente.
+>
+> Respecto a los Wireframes de la sección 4.4.1 se realizaron dos mejoras. Primero, el menú principal (Inicio, Solicitudes, Centros y Perfil) se trasladó a un Tab Bar inferior, como establecen las Human Interface Guidelines de Apple y la sección 4.1.3.1, lo que además deja la navegación al alcance del pulgar. Segundo, se incorporaron los elementos de las User Stories que no estaban representados: las unidades requeridas, el nivel de urgencia, el punto de donación y la pantalla de revisión antes del envío.
 
 <img src="../assets/images/media/mockup_ios_01_inicio.png" style="width:2.6in" />
 
-Figura: Mock-up iOS-01 Inicio (US01).
+*Figura: Mock-up iOS-01 Inicio (US01).*
 
-iOS-01 Inicio (US01). Es el punto de entrada del solicitante. La jerarquía visual guía la lectura de arriba hacia abajo: el logotipo, el saludo personalizado ("Hola, María"), la pregunta que reconoce su situación ("¿Necesitas sangre para un familiar?") y el único botón relleno de la pantalla, "Solicitar sangre", en Crimson Red, de ancho amplio y 48 pt de alto para que se encuentre y se toque con facilidad (Ley de Fitts). La sección "¿Cómo funciona?" resume el proceso en tres pasos numerados, agrupados por proximidad, para reducir la incertidumbre de una persona en estado de estrés. La tarjeta "Mis solicitudes" muestra un estado vacío que explica qué verá el usuario cuando registre una solicitud, lo que mantiene la visibilidad del estado del sistema. En el Tab Bar, la pestaña activa se distingue por el color y también por su ícono y su etiqueta, de modo que no depende solo del color (diseño inclusivo).
+> **iOS-01 Inicio (US01).** Es el punto de entrada del solicitante. La jerarquía visual guía la lectura de arriba hacia abajo: el logotipo, el saludo personalizado ("Hola, María"), la pregunta que reconoce su situación ("¿Necesitas sangre para un familiar?") y el único botón relleno de la pantalla, "Solicitar sangre", en Crimson Red, de ancho amplio y 48 pt de alto para que se encuentre y se toque con facilidad (Ley de Fitts). La sección "¿Cómo funciona?" resume el proceso en tres pasos numerados, agrupados por proximidad, para reducir la incertidumbre de una persona en estado de estrés. La tarjeta "Mis solicitudes" muestra un estado vacío que explica qué verá el usuario cuando registre una solicitud, lo que mantiene la visibilidad del estado del sistema. En el Tab Bar, la pestaña activa se distingue por el color y también por su ícono y su etiqueta, de modo que no depende solo del color (diseño inclusivo).
 
 <img src="../assets/images/media/mockup_ios_02_nueva_solicitud.png" style="width:2.6in" />
 
-Figura: Mock-up iOS-02 Nueva solicitud, paso 1 de 2 (US01, US02, US03 y US06).
+*Figura: Mock-up iOS-02 Nueva solicitud, paso 1 de 2 (US01, US02, US03 y US06).*
 
-iOS-02 Nueva solicitud – Datos del paciente (US01, US02, US03 y US06). El formulario se divide en dos pasos (divulgación progresiva) para reducir la carga cognitiva en un momento de urgencia, y una barra de progreso indica "Paso 1 de 2". El botón "‹ Inicio" permite volver en cualquier momento (control y libertad del usuario). El tipo de sangre (US02) se presenta como ocho botones visibles en una grilla de 4 × 2, en lugar de una lista desplegable, para que el usuario reconozca la opción en lugar de recordarla y la elija con un solo toque; la opción seleccionada (O+) cambia a fondo rojo con texto blanco, con un contraste alto. Las unidades requeridas (US03) se ingresan con un contador "−/+", que evita valores inválidos, y se acompañan de la equivalencia "1 unidad ≈ 450 ml" en lenguaje cotidiano. El nivel de urgencia (US06) se elige en un control segmentado de solo tres opciones —"Crítica (hoy)", "Urgente (48 h)" y "Programada"—, lo que facilita una decisión rápida (Ley de Hick). Todos los controles miden al menos 44 pt de alto.
+> **iOS-02 Nueva solicitud – Datos del paciente (US01, US02, US03 y US06).** El formulario se divide en dos pasos (divulgación progresiva) para reducir la carga cognitiva en un momento de urgencia, y una barra de progreso indica "Paso 1 de 2". El botón "‹ Inicio" permite volver en cualquier momento (control y libertad del usuario). El tipo de sangre (US02) se presenta como ocho botones visibles en una grilla de 4 × 2, en lugar de una lista desplegable, para que el usuario reconozca la opción en lugar de recordarla y la elija con un solo toque; la opción seleccionada (O+) cambia a fondo rojo con texto blanco, con un contraste alto. Las unidades requeridas (US03) se ingresan con un contador "−/+", que evita valores inválidos, y se acompañan de la equivalencia "1 unidad ≈ 450 ml" en lenguaje cotidiano. El nivel de urgencia (US06) se elige en un control segmentado de solo tres opciones —"Crítica (hoy)", "Urgente (48 h)" y "Programada"—, lo que facilita una decisión rápida (Ley de Hick). Todos los controles miden al menos 44 pt de alto.
 
 <img src="../assets/images/media/mockup_ios_03_centro_ubicacion.png" style="width:2.6in" />
 
-Figura: Mock-up iOS-03 Centro de salud y ubicación, paso 2 de 2 (US04 y US05).
+*Figura: Mock-up iOS-03 Centro de salud y ubicación, paso 2 de 2 (US04 y US05).*
 
-iOS-03 Nueva solicitud – Centro de salud y ubicación (US04 y US05). La barra de progreso aparece completa para indicar que es el último paso. La solicitud se vincula a un centro de salud (US04) mediante un buscador; el centro elegido se muestra en una tarjeta con borde rojo y un ícono de check verde, de modo que la selección se comunica con forma, ícono y color a la vez. El punto de donación (US05) se representa con un mapa, la dirección escrita y la opción "Cambiar", que permite corregirla sin reiniciar el formulario. El campo de contacto incluye el prefijo "+51" y la indicación "9 dígitos" para prevenir errores de ingreso. Finalmente, un aviso con un ícono de candado informa que los datos del paciente solo se usan para validar la solicitud, lo que refuerza la confianza al tratarse de información de salud.
+> **iOS-03 Nueva solicitud – Centro de salud y ubicación (US04 y US05).** La barra de progreso aparece completa para indicar que es el último paso. La solicitud se vincula a un centro de salud (US04) mediante un buscador; el centro elegido se muestra en una tarjeta con borde rojo y un ícono de check verde, de modo que la selección se comunica con forma, ícono y color a la vez. El punto de donación (US05) se representa con un mapa, la dirección escrita y la opción "Cambiar", que permite corregirla sin reiniciar el formulario. El campo de contacto incluye el prefijo "+51" y la indicación "9 dígitos" para prevenir errores de ingreso. Finalmente, un aviso con un ícono de candado informa que los datos del paciente solo se usan para validar la solicitud, lo que refuerza la confianza al tratarse de información de salud.
 
 <img src="../assets/images/media/mockup_ios_04_elegir_centro.png" style="width:2.6in" />
 
-Figura: Mock-up iOS-04 Elegir centro de salud (US04).
+*Figura: Mock-up iOS-04 Elegir centro de salud (US04).*
 
-iOS-04 Elegir centro de salud (US04). Al tocar el buscador se abre un Sheet, el componente nativo de iOS que la guía 4.1.3.1 define para elegir opciones. El fondo se oscurece al 40 % para mantener el contexto de la pantalla anterior, y la manija superior y el botón "Cancelar" ofrecen una salida clara. El buscador usa el estilo gris propio de iOS, y los filtros "Todos", "Hospitales" y "Bancos de sangre" acotan la lista. Cada fila muestra solo la información necesaria para decidir —nombre del centro, distrito y distancia—, separada por líneas finas para facilitar el escaneo. El centro seleccionado se marca con un check. El aviso "Solo se muestran centros afiliados a SangreLima" explica por qué la lista es limitada y responde a la validación institucional del modelo de negocio. El botón "Usar este centro" se ubica en la zona inferior, al alcance del pulgar.
+> **iOS-04 Elegir centro de salud (US04).** Al tocar el buscador se abre un Sheet, el componente nativo de iOS que la guía 4.1.3.1 define para elegir opciones. El fondo se oscurece al 40 % para mantener el contexto de la pantalla anterior, y la manija superior y el botón "Cancelar" ofrecen una salida clara. El buscador usa el estilo gris propio de iOS, y los filtros "Todos", "Hospitales" y "Bancos de sangre" acotan la lista. Cada fila muestra solo la información necesaria para decidir —nombre del centro, distrito y distancia—, separada por líneas finas para facilitar el escaneo. El centro seleccionado se marca con un check. El aviso "Solo se muestran centros afiliados a SangreLima" explica por qué la lista es limitada y responde a la validación institucional del modelo de negocio. El botón "Usar este centro" se ubica en la zona inferior, al alcance del pulgar.
 
 <img src="../assets/images/media/mockup_ios_05_revisar_solicitud.png" style="width:2.6in" />
 
-Figura: Mock-up iOS-05 Revisar solicitud (US07).
+*Figura: Mock-up iOS-05 Revisar solicitud (US07).*
 
-iOS-05 Revisar solicitud (US07). Antes del envío, el usuario ve un resumen de todo lo ingresado, organizado en dos tarjetas que coinciden con los dos pasos del formulario ("Paciente y sangre" y "Centro y ubicación"). Cada tarjeta tiene su propio enlace "Editar", de modo que puede corregir una parte sin volver a llenar todo. Las etiquetas en gris y los datos alineados a la derecha en color oscuro permiten revisar la información de un vistazo, y los datos críticos —el tipo de sangre y la urgencia— se destacan dentro de píldoras. La casilla "Confirmo que la información es real" funciona como una prevención de errores y desincentiva las solicitudes falsas, un aspecto importante por su impacto en la salud pública. El único botón relleno es "Enviar solicitud".
+> **iOS-05 Revisar solicitud (US07).** Antes del envío, el usuario ve un resumen de todo lo ingresado, organizado en dos tarjetas que coinciden con los dos pasos del formulario ("Paciente y sangre" y "Centro y ubicación"). Cada tarjeta tiene su propio enlace "Editar", de modo que puede corregir una parte sin volver a llenar todo. Las etiquetas en gris y los datos alineados a la derecha en color oscuro permiten revisar la información de un vistazo, y los datos críticos —el tipo de sangre y la urgencia— se destacan dentro de píldoras. La casilla "Confirmo que la información es real" funciona como una prevención de errores y desincentiva las solicitudes falsas, un aspecto importante por su impacto en la salud pública. El único botón relleno es "Enviar solicitud".
 
 <img src="../assets/images/media/mockup_ios_06_pendiente_validacion.png" style="width:2.6in" />
 
-Figura: Mock-up iOS-06 Pendiente de validación (US01).
+*Figura: Mock-up iOS-06 Pendiente de validación (US01).*
 
-iOS-06 Pendiente de validación (US01). Es la retroalimentación inmediata después del envío y completa el criterio de aceptación de US01: la solicitud queda registrada con el estado "Pendiente de validación". El estado se comunica con un ícono de reloj en ámbar, un título explícito y una explicación ("Te avisaremos apenas el hospital la valide"), por lo que no depende solo del color. La etiqueta "Pendiente" usa texto oscuro sobre fondo ámbar, como indica la guía para asegurar el contraste. Una línea de tiempo de tres estados —Solicitud enviada, El hospital está verificando y Publicada a donantes cercanos— muestra en qué punto del proceso se encuentra la solicitud y qué ocurrirá después (visibilidad del estado del sistema). Como en esta pantalla no hay una acción principal, las opciones "Editar solicitud" y "Cancelar solicitud" se presentan como botones secundarios con borde.
+> **iOS-06 Pendiente de validación (US01).** Es la retroalimentación inmediata después del envío y completa el criterio de aceptación de US01: la solicitud queda registrada con el estado "Pendiente de validación". El estado se comunica con un ícono de reloj en ámbar, un título explícito y una explicación ("Te avisaremos apenas el hospital la valide"), por lo que no depende solo del color. La etiqueta "Pendiente" usa texto oscuro sobre fondo ámbar, como indica la guía para asegurar el contraste. Una línea de tiempo de tres estados —Solicitud enviada, El hospital está verificando y Publicada a donantes cercanos— muestra en qué punto del proceso se encuentra la solicitud y qué ocurrirá después (visibilidad del estado del sistema). Como en esta pantalla no hay una acción principal, las opciones "Editar solicitud" y "Cancelar solicitud" se presentan como botones secundarios con borde.
 
-Muestra comparativa en Android (US01 y US04)
+##### Muestra comparativa en Android (US01 y US04)
 
-Para la plataforma secundaria se diseñaron las mismas User Stories core siguiendo Material Design 3, en una pantalla de 412 × 917 dp (Android Compact). Se mantiene la identidad de SangreLima —colores, tipografía Outfit, aviso de privacidad y botón principal en Crimson Red—, pero se adoptan los patrones propios de Android para que la aplicación resulte familiar a sus usuarios.
+> Para la plataforma secundaria se diseñaron las mismas User Stories core siguiendo Material Design 3, en una pantalla de 412 × 917 dp (Android Compact). Se mantiene la identidad de SangreLima —colores, tipografía Outfit, aviso de privacidad y botón principal en Crimson Red—, pero se adoptan los patrones propios de Android para que la aplicación resulte familiar a sus usuarios.
 
 <img src="../assets/images/media/mockup_android_01_nueva_solicitud.png" style="width:2.6in" />
 
-Figura: Mock-up Android A-01 Nueva solicitud (US01).
+*Figura: Mock-up Android A-01 Nueva solicitud (US01).*
 
-A-01 Nueva solicitud (US01). Usa una Top App Bar blanca con la flecha "←" y el título "Nueva solicitud urgente", en lugar del botón "‹ Inicio" de iOS. Los campos siguen el estilo de Material Design, con la etiqueta en la parte superior del campo, y el tipo de sangre, las unidades y el hospital se eligen en menús desplegables con el ícono "▼". Por eso el formulario cabe en una sola pantalla, mientras que en iOS se dividió en dos pasos con botones visibles. La navegación inferior es una Navigation Bar fija, con un indicador en forma de píldora detrás del ícono de la sección activa, y al final de la pantalla se muestra la barra de gestos del sistema.
+> **A-01 Nueva solicitud (US01).** Usa una Top App Bar blanca con la flecha "←" y el título "Nueva solicitud urgente", en lugar del botón "‹ Inicio" de iOS. Los campos siguen el estilo de Material Design, con la etiqueta en la parte superior del campo, y el tipo de sangre, las unidades y el hospital se eligen en menús desplegables con el ícono "▼". Por eso el formulario cabe en una sola pantalla, mientras que en iOS se dividió en dos pasos con botones visibles. La navegación inferior es una Navigation Bar fija, con un indicador en forma de píldora detrás del ícono de la sección activa, y al final de la pantalla se muestra la barra de gestos del sistema.
 
 <img src="../assets/images/media/mockup_android_02_elegir_centro.png" style="width:2.6in" />
 
-Figura: Mock-up Android A-02 Elegir centro (US04).
+*Figura: Mock-up Android A-02 Elegir centro (US04).*
 
-A-02 Elegir centro (US04). Los centros se muestran como tarjetas y los filtros usan los Filter Chips de Material Design (esquinas de 8 dp y un check en el filtro activo), a diferencia de las píldoras de iOS. La confirmación del centro se realiza en un Modal Bottom Sheet con esquinas de 28 dp y sombra, que en iOS equivale al Sheet. Por la arquitectura de información de esta vista, la sección activa en la Navigation Bar es "Centros".
+> **A-02 Elegir centro (US04).** Los centros se muestran como tarjetas y los filtros usan los Filter Chips de Material Design (esquinas de 8 dp y un check en el filtro activo), a diferencia de las píldoras de iOS. La confirmación del centro se realiza en un Modal Bottom Sheet con esquinas de 28 dp y sombra, que en iOS equivale al Sheet. Por la arquitectura de información de esta vista, la sección activa en la Navigation Bar es "Centros".
 
 | **User Story** | **Mock-ups iOS** | **Mock-ups Android** |
 |----|----|----|
@@ -1081,6 +1077,7 @@ A-02 Elegir centro (US04). Los centros se muestran como tarjetas y los filtros u
 | US05 Registrar el punto de donación | iOS-03 | — |
 | US06 Definir el nivel de urgencia | iOS-02 | — |
 | US07 Revisar la solicitud antes de enviarla | iOS-05 | — |
+
 
 
 ### 4.4.4. Primary Mobile Platform User Flow Diagrams.
