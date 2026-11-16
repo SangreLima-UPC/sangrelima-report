@@ -146,6 +146,9 @@
 | Organización de GitHub | [<u>https://github.com/SangreLima-UPC</u>](https://github.com/SangreLima-UPC) |
 | Repositorio del Landing Page | [<u>https://github.com/SangreLima-UPC/sangrelima-landing-page</u>](https://github.com/SangreLima-UPC/sangrelima-landing-page) |
 | Repositorio de Acceptance Tests (.feature) | [<u>https://github.com/fatima-campos/sangrelima-acceptance-tests</u>](https://github.com/fatima-campos/sangrelima-acceptance-tests) |
+| Repositorio del Informe | [<u>https://github.com/SangreLima-UPC/sangrelima-report</u>](https://github.com/SangreLima-UPC/sangrelima-report) |
+
+> **Repositorio del informe:** El informe del proyecto también se gestiona en un repositorio de la organización, en formato Markdown y dividido por capítulos. Sigue el mismo flujo de trabajo: cada cambio se realiza en una rama creada desde develop, se integra mediante un Pull Request hacia develop y, al cerrar cada entrega, develop se fusiona en main. Las reglas de ramas se documentan en el archivo BRANCHES.md del repositorio.
 
 > <img src="../assets/images/media/github_deployment_diagram.png" style="width:6.26772in;height:3.19444in" />
 >
