@@ -79,11 +79,17 @@
 <th style="text-align: center;"></th>
 </tr>
 <tr>
-<th style="text-align: center;"></th>
-<th style="text-align: center;"></th>
-<th style="text-align: center;"></th>
-<th style="text-align: center;"></th>
+<th style="text-align: center;">4 - Semana 13</th>
+<th style="text-align: center;">15/11</th>
+<th style="text-align: left;"><p>Belon Carita, Jorge Mathias</p>
+<p>Campos Acosta, Fatima Brigit</p>
+<p>Calderon Mendoza Sebastian Pavel</p>
+<p>Martín Farro, Alexis Sebastian</p>
+<p>Molina Benites, Luis Enrique</p>
+<p>Reyes Diaz, Frances Kamila</p></th>
+<th style="text-align: left;">Elaboración de los Mock-ups y User Flow Diagrams de la plataforma principal (iOS) y de la muestra comparativa en Android; prototipos navegables en Figma; Software Configuration Management; implementación del Landing Page en el Sprint 1 con GitFlow y su despliegue en GitHub Pages; Acceptance Tests en Gherkin; diseño de las entrevistas de validación y evaluación según heurísticas.</th>
 </tr>
+
 </thead>
 <tbody>
 </tbody>
@@ -266,7 +272,7 @@
 <th style="text-align: left;"><p><em><strong>Campos Acosta, Fatima Brigit</strong></em></p>
 <p><strong>TB1:</strong> Desarrollé la elaboración de los supuestos e hipótesis de diseño. También participé en la construcción de la matriz Lean UX Canvas y en la definición de los Segmentos Objetivo de la plataforma SangreLima.</p>
 <p><em><strong>Reyes Diaz, Frances Kamila</strong></em></p>
-<p><strong>TB1:</strong> Realicé las entrevistas a los Segmentos 1 (Pacientes/familiares), 2 (Donantes) y 3 (Instituciones/bancos de sangre) para identificar necesidades específicas relacionadas con la falta de organización en la búsqueda de donantes de sangre durante emergencias. Participé en la construcción de los User Personas de la plataforma SangreLima a partir de la información recogida.</p>
+<p><strong>TB1:</strong> Realicé las entrevistas a los Segmentos 1 (Pacientes/familiares), 2 (Donantes) y 3 (Instituciones/bancos de sangre) para identificar necesidades específicas relacionadas con la falta de organización en la búsqueda de donantes de sangre durante emergencias. Participé en la construcción de los User Personas de la plataforma SangreLima a partir de la información recogida.</p> <p><strong>TB2:</strong> Diseñé en Figma los Mock-ups de alta fidelidad de las User Stories US01 a US07 (registro de una solicitud urgente de sangre) para la plataforma principal iOS, y su muestra comparativa en Android (US01 y US04), aplicando el Design System de SangreLima y las guías de diseño de cada plataforma. Además, configuré la organización y el repositorio del Landing Page en GitHub bajo el flujo GitFlow, implementé la base del Landing Page en HTML, CSS y JavaScript, y redacté la sección 5.1 Software Configuration Management.</p>
 <p><em><strong>Molina Benites, Luis Enrique</strong></em></p>
 <p><strong>TB1:</strong> Participé en el análisis competitivo de SangreLima, comparando soluciones como Dale Vida Perú, Blooders y American Red Cross. A partir de ello, ayudé a identificar oportunidades de diferenciación como el matching por compatibilidad, proximidad, validación de solicitudes y alertas segmentadas.</p>
 <p><em><strong>Belon Carita, Jorge Mathias</strong></em></p>
@@ -281,8 +287,8 @@
 <p><strong>TB1:</strong> Colaboré activamente con el equipo para relacionar los objetivos del negocio con la información obtenida mediante la investigación de usuario. Además, incorporé las necesidades encontradas por mis compañeros en el Lean UX Canvas y ajusté los Segmentos Objetivo tomando en cuenta los resultados del análisis de la competencia y de las actividades de empatía.</p>
 <p><em><strong>Reyes Diaz, Frances Kamila</strong></em></p>
 <p><strong>TB1:</strong> Coordiné y grabé las entrevistas con los usuarios de los tres segmentos, validando que las necesidades identificadas reflejen aspectos de salud pública y bienestar. Los hallazgos sirvieron de base para ajustar los Segmentos Objetivo y las hipótesis de diseño del equipo.</p>
-<p><em><strong>Molina Benites, Luis Enrique</strong></em></p>
-<p><strong>TB1:</strong> Elaboré el <em>Competitive Analysis Landscape</em> considerando perfil, mercado objetivo, productos, canales, fortalezas, debilidades, oportunidades y amenazas de los principales competidores.</p>
+<p><em><strong>Molina Benites, Luis Enrique</strong></em></p> 
+<p><strong>TB1:</strong> Elaboré el <em>Competitive Analysis Landscape</em> considerando perfil, mercado objetivo, productos, canales, fortalezas, debilidades, oportunidades y amenazas de los principales competidores.</p> <p><strong>TB2:</strong> Incorporé en los Mock-ups criterios de seguridad y bienestar para un solicitante en una situación de emergencia: un formulario dividido en dos pasos para reducir la carga cognitiva, la revisión de los datos antes de enviarlos, la confirmación de que la información es real para evitar solicitudes falsas, el aviso de privacidad de los datos del paciente y el estado "Pendiente de validación", que deja claro que un centro de salud verifica la solicitud antes de alertar a los donantes.</p>
 <p><em><strong>Belon Carita, Jorge Mathias</strong></em></p>
 <p><strong>TB1:</strong> Me encargue de realizar el user journey mapping mediante el diseño de los recorridos de los usuarios y participe elaborando la user task matrix, identificando así tareas clave de los segmentos objetivo.</p>
 <p><em><strong>Alexis Sebastian Martin Farro</strong></em></p>
