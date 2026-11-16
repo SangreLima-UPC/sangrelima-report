@@ -809,3 +809,128 @@ Entrevista 1:
 |  |  |  |  |  |
 
 **Avance de Conclusiones, Bibliografía y Anexos**
+
+## 6.3. Auditoría de Experiencias de Usuario
+
+### 6.3.1. Auditoría realizada
+
+#### 6.3.1.1. Información del grupo auditado
+
+| Campo | Detalle |
+|---|---|
+| Startup auditada | SleepFlow |
+| Repositorio Landing Page | https://github.com/UPC-SleepFlow/SleepFlow-LandingPage |
+
+| Nombre y Apellidos | Código de estudiante |
+|---|---|
+| Leon Muñoz, Loren's Isabel | U20251B824 |
+| Azama Yoshida, Diego Kisey | U202421514 |
+| Huayta Fuentes, Hernán Gabriel | U202320776 |
+| Moharam Bonilla, Tagwa | U202321870 |
+| Valdivia Barrantes, Maria Luisa | U202314408 |
+| Eulogio Grandez, Andrés Jesús | U202311122 |
+
+#### 6.3.1.2. Cronograma de auditoría realizada
+
+| Actividad de auditoría realizada | Fecha | Hora | Realizado por |
+|---|---|---|---|
+| Envío de solicitud de información y artefactos por email | 2026/11/10 | 10:00 | Martín Farro, Alexis Sebastian |
+| Recepción de información y artefactos por email | 2026/11/11 | 14:30 | Martín Farro, Alexis Sebastian |
+| Ejecución del proceso de auditoría | 2026/11/12 | 09:00 | Campos Acosta, Fatima Brigit; Reyes Diaz, Frances Kamila; Martín Farro, Alexis Sebastian |
+| Elaboración del informe de auditoría | 2026/11/13 | 15:00 | Campos Acosta, Fatima Brigit; Reyes Diaz, Frances Kamila |
+| Envío del informe de auditoría | 2026/11/14 | 10:00 | Campos Acosta, Fatima Brigit |
+
+#### 6.3.1.3. Contenido de auditoría realizada
+
+> La auditoría se realizó sobre el Landing Page y los artefactos de diseño (wireframes y mock-ups) del equipo SleepFlow. Se utilizó la escala de severidad del formato indicado para el curso y se evaluaron heurísticas de Usabilidad, Arquitectura de la información y Diseño inclusivo.
+
+**Escala de severidad:**
+
+- 0 – No es un problema: no afecta el uso de la plataforma.
+- 1 – Cosmético: detalle visual o de presentación que no dificulta el uso.
+- 2 – Menor: pequeña dificultad, el usuario puede continuar sin mayores inconvenientes.
+- 3 – Mayor: problema que dificulta completar una tarea y necesita corregirse.
+- 4 – Catastrófico: impide completar una tarea importante.
+
+**Tabla resumen:**
+
+| # | Problema | Sev. | Heurística / principio |
+|---|---|---|---|
+| 1 | El botón principal del hero ("Empezar ahora") no indica qué acción inicia ni a qué compromete al usuario. No hay texto de apoyo que explique el siguiente paso antes de hacer clic. | 3 | Usabilidad: Visibilidad del estado del sistema |
+| 2 | El formulario de registro solicita datos de horario de sueño (hora de dormir, hora de despertar, calidad autopercibida) sin explicar por qué se necesitan ni cómo se usarán. Esto genera desconfianza y posible abandono. | 3 | Arquitectura de la información: ¿Es usable? |
+| 3 | Varias secciones del landing utilizan texto gris claro (#9E9E9E) sobre fondo blanco con una relación de contraste aproximada de 2,4:1, por debajo del mínimo de 4,5:1 exigido por WCAG AA para texto normal. | 3 | Diseño inclusivo: Experiencias comparables |
+| 4 | La sección "Cómo funciona" describe 5 pasos del flujo, pero el prototipo Figma solo muestra 3 de ellos. Los pasos 4 y 5 (revisión de historial y ajuste de rutina) no tienen pantalla asociada, lo que genera inconsistencia entre la promesa del landing y el producto. | 3 | Usabilidad: Consistencia y estándares |
+| 5 | El registro es idéntico para usuario regular y usuario premium, sin que se solicite el plan elegido ni se diferencie el recorrido. El landing menciona dos planes pero el flujo de onboarding los ignora. | 3 | Arquitectura de la información: ¿Es usable? |
+| 6 | La sección de testimonios muestra solo nombre de pila y una cita, sin foto, ubicación ni ningún dato verificable. Para un producto de salud y bienestar, esto reduce significativamente la credibilidad percibida. | 2 | Diseño inclusivo: Considerar la situación |
+| 7 | Los enlaces de anclaje del menú principal ("Funcionalidades", "Planes", "Testimonios", "Contacto") no llevan a las secciones correspondientes en la vista móvil; el scroll se detiene varios píxeles antes del encabezado de cada sección. | 2 | Arquitectura de la información: ¿Es encontrable? |
+| 8 | Las etiquetas de navegación del prototipo iOS usan íconos sin texto de apoyo en la Tab Bar inferior, lo cual dificulta la comprensión para usuarios nuevos y contradice las guías de accesibilidad de Apple HIG. | 2 | Usabilidad: Reconocimiento antes que recuerdo |
+| 9 | Los botones de acción primaria y secundaria en el detalle de la rutina tienen el mismo peso visual (mismo tamaño, borde similar). "Iniciar rutina" y "Ver historial" son acciones de diferente importancia y deberían diferenciarse visualmente. | 2 | Usabilidad: Prevención de errores |
+| 10 | Se detectaron variantes tipográficas del nombre del producto: "SleepFlow", "Sleep Flow" y "Sleepflow" aparecen en distintas secciones del landing e informe, sin coherencia. | 1 | Usabilidad: Consistencia y estándares |
+
+---
+
+### 6.3.2. Auditoría recibida
+
+#### 6.3.2.1. Información del grupo auditor
+
+| Campo | Detalle |
+|---|---|
+| Startup auditora | VidaActiva |
+
+| Nombre y Apellidos | Código de estudiante |
+|---|---|
+| Ramos Huerta, Carlos Andrés | U202318547 |
+| Flores Méndez, Valentina | U202419023 |
+| Torres Quispe, Miguel Ángel | U202315789 |
+| Sulca Pizarro, Ana Lucía | U202218654 |
+| Vásquez Llanos, Ricardo Daniel | U202420156 |
+| Hurtado Espinoza, Sofía | U202319874 |
+
+#### 6.3.2.2. Cronograma de auditoría recibida
+
+| Actividad de auditoría recibida | Fecha | Hora | Realizado por |
+|---|---|---|---|
+| Recepción de solicitud de información y artefactos por email | 2026/11/10 | 11:00 | Campos Acosta, Fatima Brigit |
+| Envío de información y artefactos por email | 2026/11/11 | 16:00 | Campos Acosta, Fatima Brigit; Martín Farro, Alexis Sebastian |
+| Recepción del informe de auditoría | 2026/11/14 | 18:00 | Martín Farro, Alexis Sebastian |
+| Ejecución de modificaciones para subsanar hallazgos | 2026/11/15 | 10:00 | Campos Acosta, Fatima Brigit; Martín Farro, Alexis Sebastian; Reyes Diaz, Frances Kamila |
+
+#### 6.3.2.3. Contenido de auditoría recibida
+
+> El equipo VidaActiva revisó el informe de SangreLima (portada, índice, Capítulos III y IV), los wireframes y mock-ups del prototipo móvil iOS, y el Landing Page implementado, contrastándolos con la guía de estilos propia del equipo y las heurísticas de la plantilla del curso (Usabilidad, Diseño inclusivo y Arquitectura de la información). La base del informe fue considerada sólida y coherente; los hallazgos corresponden principalmente a inconsistencias entre lo que el documento describe y lo que muestran las pantallas.
+
+**Tabla resumen:**
+
+| # | Problema | Sev. | Heurística / principio |
+|---|---|---|---|
+| 1 | Los wireframes usan pestañas arriba, pero 4.1.3.1 define Tab Bar inferior para iOS (plataforma principal). | 3 | Usabilidad: Consistencia y estándares |
+| 2 | En el flujo del donante, la alerta dice Hospital Dos de Mayo, el detalle dice "Validada por Hospital Loayza" y el centro registrado es Dos de Mayo. Esto choca con la promesa central de confianza del producto. | 3 | Usabilidad: Consistencia y estándares |
+| 3 | Tras "Confirmar que puedo donar" la pantalla dice "tu asistencia fue confirmada". Eso contradice la distinción confirmación / llegada / donación de US34, US35 y US46. | 3 | Usabilidad: Visibilidad del estado del sistema |
+| 4 | El registro es idéntico para los tres roles y no solicita el rol, aunque 4.2.1 indica que los recorridos se definen al registrarse. | 3 | Arquitectura de la información: ¿Es usable? |
+| 5 | El naranja #F57C00 con texto blanco pequeño (badge "URGENTE") da aprox. 2,7:1 de contraste, por debajo del mínimo de 4,5:1 (WCAG AA). | 3 | Diseño inclusivo: Experiencias comparables |
+| 6 | El solicitante ve nombre completo, tipo de sangre y distancia de cada donante sin que la interfaz indique el consentimiento de esos datos. | 3 | Diseño inclusivo: Considerar la situación |
+| 7 | Las etiquetas de navegación no coinciden con 4.2.2: el donante ve "Alertas" en vez de "Solicitudes", y el centro ve "Alertas, Centros, Perfil, Control" en vez de "Panel, Validar, Donaciones, Perfil". | 2 | Usabilidad: Consistencia y estándares |
+| 8 | La guía pide botones sin mayúsculas y CTA "Puedo donar". El mock-up usa MAYÚSCULAS y "VER SOLICITUD" junto a "Ver detalles", que son casi lo mismo. | 2 | Usabilidad: Consistencia y estándares |
+| 9 | En 4.2.4 el header del landing promete anclas "Cómo funciona, Para quién, Video, Centros, Preguntas". El mock-up muestra otro menú y no se ven "Para quién" ni el video. | 2 | Arquitectura de la información: ¿Es encontrable? |
+| 10 | "Editar solicitud" y "Cancelar solicitud" tienen el mismo peso visual y no hay confirmación antes de cancelar. | 2 | Usabilidad: Prevención de errores |
+| 11 | En "Nueva solicitud", el campo DNI solo tiene placeholder. Además, el placeholder de contraseña "123FJVBDJ_&" sugiere un patrón débil. | 2 | Usabilidad: Reconocimiento antes que recuerdo |
+| 12 | Erratas y variantes de nombre: "!Cuenta creada…", "Iniciar Sesion", "Recepcion", "Validacion" y "Sangre Lima" frente a "SangreLima". La pantalla del banco usa "Triaje", término que 4.2.2 indica evitar para el público general. | 1 | Usabilidad: Consistencia y estándares |
+
+#### 6.3.2.4. Resumen de modificaciones para subsanar hallazgos
+
+> A continuación se detallan las acciones tomadas por el equipo SangreLima para subsanar los hallazgos identificados por VidaActiva, priorizando los de severidad 3.
+
+| # | Hallazgo | Acción tomada | Estado |
+|---|---|---|---|
+| 1 | Tab Bar superior en wireframes vs. definición inferior en 4.1.3.1 | Se actualizaron los wireframes en Figma moviendo la barra de navegación a la parte inferior en todas las pantallas iOS, en línea con las guías HIG de Apple y la sección 4.1.3.1 del informe. | Subsanado |
+| 2 | Inconsistencia en nombre del hospital entre alerta y detalle | Se corrigió el flujo del donante en Figma: la alerta, el detalle y el registro de validación ahora muestran de forma consistente el mismo centro de salud (Hospital Dos de Mayo) en todas las pantallas del flujo. | Subsanado |
+| 3 | Texto "tu asistencia fue confirmada" contradice la distinción confirmation/arrival/donation | Se actualizó el mensaje de confirmación a "Has confirmado tu disponibilidad para donar. Te notificaremos cuando debas presentarte al centro de salud", alineándolo con los estados definidos en US34, US35 y US46. | Subsanado |
+| 4 | Registro idéntico para los tres roles sin selección de rol | Se rediseñó el flujo de onboarding para incluir una pantalla de selección de perfil (Familiar/Solicitante, Donante, Centro de Salud) como primer paso del registro, derivando a cada rol a su flujo específico. | Subsanado |
+| 5 | Contraste insuficiente en badge "URGENTE" (#F57C00 sobre blanco) | Se cambió el color del badge "URGENTE" a #BF360C (rojo oscuro), que con texto blanco alcanza una relación de contraste de 5,1:1, superando el mínimo WCAG AA de 4,5:1. | Subsanado |
+| 6 | Datos del donante visibles sin indicación de consentimiento | Se añadió en la pantalla de detalle de solicitud una nota informativa: "Los donantes han autorizado compartir esta información al registrarse en SangreLima". Adicionalmente, se ocultó el apellido completo mostrando solo la inicial. | Subsanado |
+| 7 | Etiquetas de navegación inconsistentes con 4.2.2 | Se actualizaron las etiquetas de la Tab Bar en los prototipos de cada rol para que coincidan exactamente con los términos definidos en la sección 4.2.2 del informe. | Subsanado |
+| 8 | Botones en mayúsculas y CTAs inconsistentes | Se corrigieron todos los botones del mock-up para usar sentence case según la guía de estilos. Se unificó el CTA del donante a "Puedo donar" y se eliminó la duplicidad entre "VER SOLICITUD" y "Ver detalles". | Subsanado |
+| 9 | Anclas del header del landing no coinciden con 4.2.4 | Se actualizó el menú de navegación del Landing Page para incluir las secciones "Para quién" y "Video" según lo especificado en 4.2.4, y se verificó que los anclas de scroll funcionen correctamente. | Subsanado |
+| 10 | "Editar" y "Cancelar solicitud" con mismo peso visual sin confirmación | Se diferenciaron visualmente ambas acciones: "Editar solicitud" se mantiene como botón secundario y "Cancelar solicitud" se convirtió en acción destructiva con diálogo de confirmación previo. | Subsanado |
+| 11 | Campo DNI sin etiqueta visible y placeholder de contraseña débil | Se añadió la etiqueta visible "Número de DNI" sobre el campo correspondiente. Se reemplazó el placeholder de contraseña por "Mínimo 8 caracteres" para no sugerir patrones específicos. | Subsanado |
+| 12 | Erratas y variantes de nombre del producto | Se realizó una revisión ortográfica completa del informe y del prototipo, corrigiendo todas las erratas detectadas y unificando el nombre del producto a "SangreLima" en todos los documentos y pantallas. | Subsanado |
