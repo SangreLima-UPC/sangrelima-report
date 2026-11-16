@@ -460,8 +460,7 @@
 >
 > **URL del tablero Trello:** [https://trello.com/b/F7xuEumW/sangrelima](https://trello.com/b/F7xuEumW/sangrelima)
 
-![Tablero Trello Sprint 1 — tarjetas del Sprint 1]
-(../assets/images/media/trello_screenshot_sprint1.png)
+![Tablero Trello Sprint 1 — tarjetas del Sprint 1](../assets/images/media/trello_screenshot_sprint1.png)
 
 | **Work-Item Id** | **User Story Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |----|----|----|----|----|----|----|
