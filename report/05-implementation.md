@@ -443,10 +443,10 @@
 
 | **Elemento** | **Valor** |
 |----|----|
-| URL del Landing Page publicado | [<u>https://sangrelima-upc.github.io/sangrelima-landing-page/</u>](https://sangrelima-upc.github.io/sangrelima-landing-page/) |
+| URL del Landing Page (pendiente de publicación) |
 | Rama de despliegue | main |
 | Carpeta publicada | public |
-| Versión publicada | v1.0.0 |
+| Versión publicada | Pendiente (se publicará como v1.0.0) |
 
 ## 5.2. Product Implementation & Deployment.
 
@@ -460,7 +460,8 @@
 >
 > **URL del tablero Trello:** [https://trello.com/b/F7xuEumW/sangrelima](https://trello.com/b/F7xuEumW/sangrelima)
 
-![Tablero Trello Sprint 1 — tarjetas WI-01 a WI-12 en estado Done](../assets/images/media/trello_screenshot_sprint1.png)
+![Tablero Trello Sprint 1 — tarjetas del Sprint 1]
+(../assets/images/media/trello_screenshot_sprint1.png)
 
 | **Work-Item Id** | **User Story Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |----|----|----|----|----|----|----|
@@ -475,12 +476,11 @@
 | WI-09 | US24 | Sección "Cómo funciona" | Implementar los 3 steps con número circular, título y descripción en grid responsive: 1 columna en móvil, 3 columnas a partir de 768 px. | 3 | Molina Benites, Luis | Done |
 | WI-10 | US30 | Header sticky con navegación responsive | Implementar el header fijo con logo, menú desktop y toggle mobile con JavaScript (atributo aria-expanded y clase main-nav--open). | 5 | Campos Acosta, Fatima | Done |
 | WI-11 | US30 | Footer con columnas de navegación | Implementar el footer con grid de 4 columnas, enlaces de navegación y año dinámico mediante new Date().getFullYear(). | 3 | Reyes Diaz, Frances | Done |
-| WI-12 | US30 | Publicación en GitHub Pages | Configurar el workflow de GitHub Actions (deploy-pages.yml), verificar el despliegue en producción y crear el tag v1.0.0. | 2 | Martín Farro, Alexis | Done |
+| WI-12 | US30 | Publicación en GitHub Pages | Configurar el workflow de GitHub Actions (deploy-pages.yml), verificar el despliegue en producción y crear el tag v1.0.0. | 2 | Martín Farro, Alexis | In-Process |
 
 #### 5.2.1.2. User Interface & Execution.
 
-> El Landing Page de SangreLima se encuentra publicado y accesible en la siguiente URL de producción:
-> [https://sangrelima-upc.github.io/sangrelima-landing-page/](https://sangrelima-upc.github.io/sangrelima-landing-page/)
+> El Landing Page de SangreLima se encuentra implementado e integrado en la rama develop del repositorio [sangrelima-landing-page](https://github.com/SangreLima-UPC/sangrelima-landing-page). Su publicación en GitHub Pages (WI-12) se encuentra en proceso; una vez completada, estará disponible en https://sangrelima-upc.github.io/sangrelima-landing-page/. Las capturas de esta sección se tomaron ejecutando el Landing Page de forma local en el navegador.
 >
 > A continuación se presentan capturas de las principales secciones implementadas durante el Sprint 1, tomadas desde la vista desktop y la vista móvil.
 
