@@ -79,6 +79,14 @@
 <p><strong>Conocimientos y habilidades:</strong></p>
 <p>Estudiante de la carrera de Ingeniería de software en la UPC, me considero una persona que le gusta trabajar en equipo y poder hacer trabajos muy bien planteados y poder entregar todo a tiempo y responsablemente.</p></th>
 </tr>
+<tr>
+<th style="text-align: center;"><img src="../assets/images/media/valle-vargas-gabriel.png" style="width:2.27083in;height:2.56944in" /></th>
+<th style="text-align: left;"><p><strong>Nombre:</strong> Valle Vargas, Gabriel Alexander</p>
+<p><strong>Carrera:</strong> Ingeniería de Software</p>
+<p><strong>Código:</strong> U20221D262</p>
+<p><strong>Conocimientos y habilidades:</strong></p>
+<p>Estudiante de la carrera de Ingeniería de software en la UPC, Con una pasión intrínseca por la tecnología y su aplicación para mejorar la vida de las personas, demuestro un fuerte interés en las disciplinas que abarcan desde la programación hasta el diseño de sistemas complejos.</p></th>
+</tr>
 </thead>
 <tbody>
 </tbody>
