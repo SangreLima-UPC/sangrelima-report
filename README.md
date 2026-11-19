@@ -29,6 +29,7 @@ sangrelima-report/
 - Martín Farro, Alexis Sebastian
 - Molina Benites, Luis Enrique
 - Reyes Diaz, Frances Kamila
+- Valle Vargas, Gabriel Alexander
 
 ## 🔄 Flujo de Ramas
 
